@@ -1,0 +1,33 @@
+{
+  "name": "mineracao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^7.1.0"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pericleschrstn@bitbucket.org/pericleschrstn/mineracao.git"
+  },
+  "author": "Péricles Christian",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pericleschrstn/mineracao#readme",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
+}

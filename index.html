@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="deploy/css/style.css">
+  <title>Tangerino - Ponto digital</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-light bg-laranja sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/.">
+          <img src="img/logo-tangerino.svg" alt="Logotipo Tangerino">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav ms-xl-auto mb-lg-0 d-none d-xl-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/notificacao.svg" alt="Ajuda"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/ajuda.svg" alt="Ajuda" class="me-1"></a>
+          </li>
+          <img src="img/perfil.jpg" alt="Avatar" class="img-avatar">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Péricles Christian
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Configurações</a></li>
+              <li><a class="dropdown-item" href="#">Ajuda</a></li>
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Sidebar -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-xl-3 col-xxl-2 d-xl-block bg-light sidebar collapse">
+        <div class="position-sticky">
+          <ul class="navbar-nav ms-lg-auto mb-lg-0 d-flex d-xl-none navbar-mobile">
+            <li class="nav-item order-2">
+              <a class="nav-link" href="#"><img src="img/notificacao-mobile.svg" alt="Ajuda"></a>
+            </li>
+            <li class="nav-item order-3">
+              <a class="nav-link" href="#"><img src="img/ajuda-mobile.svg" alt="Ajuda" class="me-1"></a>
+            </li>
+            <img src="img/perfil.jpg" alt="Avatar" class="img-avatar">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-link-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Péricles Christian
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                <li><a class="dropdown-item" href="#">Ajuda</a></li>
+                <li><a class="dropdown-item" href="#">Sair</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav flex-column">
+            <p class="sidebar-title">Controle diário</p>
+            <li class="nav-item">
+              <a href="/." class="nav-link active sidebar-text" aria-current="page">
+                <img src="img/total-colaboradores.svg" alt="Total de colaboradores" class="sidebar-icon">
+                Total de colaboradores
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/taxa-presenca.html" class="nav-link sidebar-text">
+                <img src="img/taxa-presenca.svg" alt="Taxa de presença" class="sidebar-icon">
+                Taxa de presença
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/status.html" class="nav-link sidebar-text">
+                <img src="img/status.svg" alt="Status diário" class="sidebar-icon">
+                Status diário
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/horas-extras.html" class="nav-link sidebar-text">
+                <img src="img/horas-extras.svg" alt="Horas extras" class="sidebar-icon">
+                Horas extras
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/atrasos-faltas.html" class="nav-link sidebar-text">
+                <img src="img/atrasos-faltas.svg" alt="Atrasos ou faltas" class="sidebar-icon">
+                Atrasos ou faltas
+              </a>
+            </li>
+          </ul>
+          <hr>
+          <ul class="nav flex-column">
+            <p class="sidebar-title">Controle mensal</p>
+            <li class="nav-item">
+              <a href="/pontos.html" class="nav-link sidebar-text">
+                <img src="img/pontos.svg" alt="Pontos" class="sidebar-icon">
+                Pontos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/ajustes.html" class="nav-link sidebar-text">
+                <img src="img/ajustes.svg" alt="Ajustes" class="sidebar-icon">
+                Ajustes
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/inconsistencias.html" class="nav-link sidebar-text">
+                <img src="img/incosistencias.svg" alt="Inconsistências" class="sidebar-icon">
+                Inconsistências
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/dispositivos-plataforma.html" class="nav-link sidebar-text">
+                <img src="img/dispositivos-plataforma.svg" alt="Dispositivos por plataforma" class="sidebar-icon">
+                Dispositivos por plataforma
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="autorizacoes-dispositivos.html" class="nav-link sidebar-text">
+                <img src="img/autorização-dispositivo.svg" alt="Autorizações de dispositivos" class="sidebar-icon">
+                Autorizações de dispositivos
+              </a>
+            </li>
+          </ul>
+          <hr>
+          <ul class="nav flex-column">
+            <p style="font-size:14px;">Versão 1.1</p>
+          </ul>
+        </div>
+      </nav>
+      <!-- Conteúdo -->
+      <main class="ms-xl-auto col-xl-9">
+        <div class="main">
+          <div class="row">
+            <div class="col-12">
+              <p class="current-date">Data e hora atual: 05/02/2021 08:00</p>
+              <h1 class="title">Total de colaboradores</h1>
+              <div class="main-result">
+                <img src="img/chart-total-colaborador.svg" alt="Total de colaboradores">
+                <span class="result">60</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
